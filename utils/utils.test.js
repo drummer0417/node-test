@@ -30,7 +30,7 @@ it('should devide two numbers', () => {
 it('Should split fullName into firstName and lastName', () => {
 
     var user = utils.setName({
-        "age": 55,
+        "age": 56,
         "address": "FB 511",
         "kids": ['Cas', 'Anouk']
     }, 'Hans vanMeurs');
