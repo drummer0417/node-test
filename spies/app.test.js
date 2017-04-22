@@ -23,6 +23,7 @@ describe('App', () => {
             })
         })
     })
+
     // it('should create and test a spy', () => {
     //   var spy = expect.createSpy();
     //   spy('hans@bla.nl', '3324');
