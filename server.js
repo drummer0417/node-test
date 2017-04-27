@@ -6,13 +6,9 @@ var port = process.env.PORT || 3000;
 module.exports.app = app.get('/', (req, res) => {
   res.status(401).send({
     bla: "ssdff",
-<<<<<<< HEAD
-    error: "Page not found. Tot ziens!",
-    bloe: "sdf"
-=======
+
     error: "Page not found. Check request and try again!!!",
     bloe: "Testing One, 2"
->>>>>>> 17d38c8c62c83fa0fde99f06753aa83faad78955
   });
 });
 
