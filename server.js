@@ -33,5 +33,5 @@ module.exports.app = app.get('/user', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`server started on port: ${port}`);
+  console.log(`server started on port ${port}`);
 });
