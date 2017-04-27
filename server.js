@@ -7,8 +7,10 @@ module.exports.app = app.get('/', (req, res) => {
   res.status(401).send({
     bla: "ssdff",
 
-    error: "Page not found. Check request and try again!!!.... of doe het zelf",
-    bloe: "Testing One, 2"
+
+    error: "Page not found. Check request and try again!!!",
+    bloe: "Testing One, 2, 4"
+
   });
 });
 
