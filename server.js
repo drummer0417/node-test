@@ -10,7 +10,6 @@ module.exports.app = app.get('/', (req, res) => {
 
     error: "Page not found. Check request and try again!!!",
     bloe: "Testing One, 2, 4"
-    // deze gaan we stashen
   });
 });
 
